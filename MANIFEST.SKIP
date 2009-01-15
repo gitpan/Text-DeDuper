@@ -10,3 +10,4 @@
 ^[Mm]akefile$
 ^pm_to_blib$
 ^blib\/
+\.DS_Store

@@ -45,9 +45,11 @@ use vars qw($VERSION);
 use Digest::MD4;
 use Encode;
 
-$VERSION = do { my @r = (q$Revision: 1.0 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
+$VERSION = do { my @r = (q$Revision: 1.1 $ =~ /\d+/g); sprintf "%d."."%02d", @r };
 
-=head1 CONSTRUCTOR
+=head1 METHODS
+
+=head2 new (CONSTRUCTOR)
 
     $deduper = new Text::DeDuper(<attribute-value-pairs>);
 
@@ -77,8 +79,6 @@ sub new
 
     return $self;
 }
-
-=head1 METHODS
 
 =cut
 
